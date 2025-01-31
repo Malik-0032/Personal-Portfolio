@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="Styless.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+    <div class="background-animation">
+        <div class="floating-shape shape1"></div>
+        <div class="floating-shape shape2"></div>
+        <div class="floating-shape shape3"></div>
+    </div>
+
+    <header class="header">
+        <a href="#" class="logo"><span>Abhinav Malik</span></a>
+
+        <ul class="nav-links">
+            <li>
+                <a href="#about">About</a>
+            </li>
+            <li>
+                <a href="#experience">Experience</a>
+            </li>
+            <li>
+                <a href="#Projects">Projects</a>
+            </li>
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
+        <button class="visit-btn" onclick="window.open('https://github.com/Malik-0032', '_blank')">Visit Github</button>
+    </header>
+
+    <section id="about" class="about">
+         <div class="about-container">
+            <img src="Profile-pic.jpeg" alt="">
+
+            <div class="info-box">
+                
+                <div class="text">
+                     <h3>Hi! I'm</h3>
+                     <h1>Abhinav Malik</h1>
+                     <span>Cybersecurity Analyst</span>
+                </div>
+
+                <div class="btn-grp">
+                    <a href="https://drive.google.com/file/d/1GQzLCemXhojq3IY94Nqr_AEHRRKD9PFx/view?usp=sharing" download class="btn">Download CV</a>
+                    <a href="#contact" class="btn">Contact</a>
+                  </div>
+                  
+                  <div class="socials">
+                    <a href="https://github.com/Malik-0032" target="_blank" title="GitHub">
+                      <i class="fa-brands fa-square-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/abhinav-malik-83b24b219/" target="_blank" title="LinkedIn">
+                      <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                    <a href="mailto:abhinavmalik3054@gmail.com" target="_blank" title="Email">
+                      <i class="fa-solid fa-envelope"></i>
+                    </a>
+                  </div>
+                  
+            
+            </div>
+         </div>
+    </section>
+
+    <section id="experience" class="experience">
+       <h2 class="section-title">Experience</h2>
+
+       <div class="experience-info">
+         <div class="grid">
+            <div class="grid-card">
+                <i class="fa-solid fa-code">  <span> Cybersecurity Engineer</span></i>
+                <h3>March 2024 - Current</h3>
+                <p>As a Cybersecurity Engineer, I specialize in safeguarding digital infrastructures with expertise in SIEM, SOAR, and Web Application Firewalls (WAF). I have collaborated with SIEM providers to proactively monitor, detect, and predict security threats, ensuring robust protection for critical systems. A key contributor to fortifying BHEL’s servers across all regions of India, I successfully implemented comprehensive cybersecurity measures to shield against evolving cyber threats. Leveraging tools like McAfee, WAF, and SOC platforms, I achieved a 30% reduction in security incidents and a 20% improvement in overall system resilience, enhancing organizational security and ensuring seamless operational continuity.</p>
+            </div>
+            <div class="grid-card">
+                <i class="fa-solid fa-terminal">  <span>Sales and Marketing</span></i>
+                <h3>June 2023 – July 2023</h3>
+                <p>With expertise in data analysis, communication, market segmentation, and strategic planning, I have effectively contributed to IT-driven initiatives that deliver measurable results. By leveraging advanced analytical tools and technologies, I have developed and implemented customer segmentation models and targeting strategies to enhance user engagement and optimize IT service delivery. Collaborating with cross-functional teams, I have created technical collateral and resources to support IT product deployment and adoption processes. My ability to bridge technical insights with strategic objectives has enabled me to drive impactful campaigns and deliver innovative, data-driven solutions aligned with organizational goals in the IT industry.</p>
+            </div>
+         </div>
+         <img src="Profile.jpeg" alt="">
+       </div>
+    </section>
+
+    <section id="Projects" class="projects">
+        
+        <h2 class="section-title">Recent Projects</h2>
+
+        <div class="projects-grid">
+
+            <div class="project-card">
+                <img src="SecureScan.webp" alt="">
+                <h3>SecureScan Pro</h3>
+                <p>
+                    SecureScan-Pro is a comprehensive web application security scanner that combines automated vulnerability assessment with an intuitive user interface. Built with Python/Flask backend and modern JavaScript frontend, this tool performs thorough security analysis including vulnerability scanning, SSL/TLS verification, security headers evaluation, and port scanning, while providing real-time progress monitoring and detailed reporting through an interactive dashboard.
+                </p>
+                <div class="btn-grp">
+                    <a class="btn" href="https://malik-0032.github.io/SecureScan-Pro/" target="_blank">Live Demo</a>
+                    <a class="btn" href="https://github.com/Malik-0032/SecureScan-Pro" target="_blank">GitHub repository</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="SOC.webp" alt="">
+                <h3>Sentinel Shield</h3>
+                <p>
+                    Sentinel Shield is an advanced SOC-Automation solution designed to optimize the security operations center (SOC) by automating key processes such as log management, threat detection, and incident response. The project enhances efficiency by streamlining workflows, improving incident triage, and ensuring faster response times to security threats. By automating routine security tasks, Sentinel Shield enables security teams to focus on higher-priority challenges, while its robust architecture ensures rapid detection and remediation of potential threats. This solution demonstrates a strong application of cybersecurity expertise, offering a proactive defense mechanism to safeguard organizations from evolving cyber threats.
+                </p>
+                <div class="btn-grp">
+                    <a class="btn" href="https://github.com/Malik-0032/Sentinel-Shield-SOC-Automation" target="_blank">GitHub repository</a>
+                </div>                
+            </div>
+            <div class="project-card">
+                <img src="Chatbot.webp" alt="">
+                <h3>GemVision</h3>
+                <p>
+                    GemVision is Chatbot Using Gemini Pro was developed, leveraging the capabilities of Google Gemini Pro's API and LangChain libraries to create a conversational agent capable of responding to user queries with GPT-4-like intelligence. The project utilized Gemini Pro’s LLM Multimodal Model to process and generate human-like responses across diverse query contexts. By integrating advanced APIs and language model libraries, the chatbot delivers highly interactive and contextually accurate communication, showcasing the potential of cutting-edge AI technologies in enhancing user interaction.
+                </p>
+                <div class="btn-grp">
+                    <a class="btn" href="https://malik-0032.github.io/GemVision/" target="_blank">Live Demo</a>
+                    <a class="btn" href="https://github.com/Malik-0032/GemVision" target="_blank">GitHub repository</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="input-box">
+
+            <h2 class="section-title">Contact Me</h2>
+            
+            <form class="contact-form">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="YourEmail@gmail.com" required>
+                <textarea placeholder="Your Message" required></textarea>
+            </form>
+            <div class="btn">Submit</div>
+        </div>
+    </section>
+
+    <footer>
+        <div></div>
+        <ul>
+            <li>
+                <a href="#about">About</a>
+            </li>
+
+            <li>
+                <a href="#experience">Experience</a>
+            </li>
+
+            <li>
+                <a href="#Projects">Projects</a>
+            </li>
+
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>
+        </div>
+        <p>&copy; Abhinav Malik . All Rights Reserved.</p>
+    </footer>
+
+    <script src="Scriptt.js"></script>
+</body>
+</html>
